@@ -65,7 +65,7 @@ int main()
                 }
         }
 
-        display();
+        void display();
         int hold;
         int hold2;
         int drop(int r, char player);
@@ -125,6 +125,8 @@ int drop(int r, char player)
                 return -1;
         }
 }
+
+
 bool check(int r, int c)
 {
 
